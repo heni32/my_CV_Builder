@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CV Builder</string>
+    <string name="career_note">Master’s in computer science •2021-2022:(In progress via distance education; expected completion April 2024)
+Maharishi International University, Fairfield, Iowa
+</string>
+    <string name="Last_name_first_name">Gebrehawariat Henok</string>
+    <string name="tech_details">Languages:  Java 8
+Web:  JavaScript, TypeScript, JSP, Servlets, XML, HTML5, CSS3, Node.js, Express.js
+Frameworks:  Spring (Boot, Security, Data, AOP, IOC-Dependency Injection), Hibernate, Angular
+Databases:  MongoDB, MS SQL, MySQL, Firebase
+Design Patterns:  Open Session in View, Factory, Singleton, Prototype, Session, Session Factory</string>
+    <string name="about_me">Accomplished Full Stack Developer with more than 6 years of hands-on experience implementing Agile methodologies through all phases of software development life cycle. Proven experience in designing and integrating user interfaces, database tables, enterprise web applications, and Android applications. Skilled in implementing technologies such as Java, Spring Boot, Microservice</string>
+    <string name="phone"> +1 888 777 6655</string>
+    <string name="email">test@gmail.com</string>
+    <string name="linkedIn">https://www.linkedin.com</string>
+    <string name="github">https://github.com/heni32</string>
+    <string name="pdf">PDF</string>
+    <string name="uni1">Maharishi International University</string>
+    <string name="uni1detials">Maharishi International University</string>
+    <string name="uni2">Pisa University</string>
+    <string name="uni2details">Bachelor of Science in Electrical Engineering</string>
+    <string name="cirtification1">Google Cloud Platformg</string>
+    <string name="cirtification2">Google Certificate</string>
+
+
+</resources>
