@@ -1,4 +1,4 @@
-package com.example.cvbuilder.entity
+package com.heni.cvbuilder.entity
 
 import androidx.room.PrimaryKey
 import kotlinx.serialization.Serializable

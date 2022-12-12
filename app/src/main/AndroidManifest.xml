@@ -13,10 +13,10 @@
         android:theme="@style/Theme.CVBuilder"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.heni.cvbuilder.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".splash.SplashActivity"
+            android:name="com.heni.cvbuilder.splash.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

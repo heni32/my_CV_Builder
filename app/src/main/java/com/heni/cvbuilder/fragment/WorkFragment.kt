@@ -1,4 +1,4 @@
-package com.example.cvbuilder.fragment
+package com.heni.cvbuilder.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cvbuilder.R
-import com.example.cvbuilder.entity.WorkExperience
-import com.example.cvbuilder.myadapters.ListAdapter
+import com.heni.cvbuilder.entity.WorkExperience
+import com.heni.cvbuilder.myadapters.ListAdapter
 
 
 class WorkFragment : Fragment() {

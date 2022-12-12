@@ -1,4 +1,4 @@
-package com.example.cvbuilder.myadapters
+package com.heni.cvbuilder.myadapters
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager

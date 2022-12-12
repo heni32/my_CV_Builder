@@ -1,4 +1,4 @@
-package com.example.cvbuilder.entity
+package com.heni.cvbuilder.entity
 
 enum class MyContactTypes {
     GITHUB,

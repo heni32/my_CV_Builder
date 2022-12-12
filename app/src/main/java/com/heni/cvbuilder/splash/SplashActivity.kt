@@ -1,9 +1,9 @@
-package com.example.cvbuilder.splash
+package com.heni.cvbuilder.splash
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.cvbuilder.MainActivity
+import com.heni.cvbuilder.MainActivity
 import com.example.cvbuilder.R
 import java.lang.Thread.sleep
 

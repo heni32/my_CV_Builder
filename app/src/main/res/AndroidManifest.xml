@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CVBuilder">
         <activity
-            android:name="com.example.cvbuilder.MainActivity"
+            android:name="com.heni.cvbuilder.MainActivity"
             android:exported="false" />
         <activity
             android:name="com.example.cvbuilder.ui.splash.LoginActivity"
@@ -21,7 +21,7 @@
             android:exported="false"
             android:theme="@style/RegisterActivityStyle" />
         <activity
-            android:name="com.example.cvbuilder.splash.SplashActivity"
+            android:name="com.heni.cvbuilder.splash.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

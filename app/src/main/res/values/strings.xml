@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">CV Builder</string>
     <string name="career_note">Master’s in computer science •2021-2022:(In progress via distance education; expected completion April 2024)
-Maharishi International University, Fairfield, Iowa
-</string>
+                                Maharishi International University, Fairfield, Iowa</string>
     <string name="Last_name_first_name">Gebrehawariat Henok</string>
     <string name="tech_details">Languages:  Java 8
 Web:  JavaScript, TypeScript, JSP, Servlets, XML, HTML5, CSS3, Node.js, Express.js

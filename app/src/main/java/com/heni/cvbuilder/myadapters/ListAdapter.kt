@@ -1,4 +1,4 @@
-package com.example.cvbuilder.myadapters
+package com.heni.cvbuilder.myadapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,9 +7,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cvbuilder.R
-import com.example.cvbuilder.entity.EducationList
-import com.example.cvbuilder.entity.MyCertificationList
-import com.example.cvbuilder.entity.WorkExperience
+import com.heni.cvbuilder.entity.EducationList
+import com.heni.cvbuilder.entity.MyCertificationList
+import com.heni.cvbuilder.entity.WorkExperience
 
 class ListAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     private lateinit var workExperienceList: List<WorkExperience>

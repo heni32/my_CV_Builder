@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:paddingStart="@dimen/common_padding_start"
     android:paddingEnd="@dimen/common_padding_end"
-    tools:context=".fragment.ContactFragment">
+    tools:context="com.heni.cvbuilder.fragment.ContactFragment">
 
     <TextView
         android:id="@+id/tv_myContacts"

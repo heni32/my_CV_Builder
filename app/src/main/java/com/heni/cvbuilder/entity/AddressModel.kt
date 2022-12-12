@@ -1,4 +1,4 @@
-package com.example.cvbuilder.entity
+package com.heni.cvbuilder.entity
 
 class AddressModel {
     var addressIcon: Int? = 0

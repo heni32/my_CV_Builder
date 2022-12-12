@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".fragment.AboutMeFragment">
+    tools:context="com.heni.cvbuilder.fragment.AboutMeFragment">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card_aboutMe"

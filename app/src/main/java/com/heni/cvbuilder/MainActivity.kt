@@ -1,4 +1,4 @@
-package com.example.cvbuilder
+package com.heni.cvbuilder
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -8,11 +8,12 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.viewpager.widget.ViewPager
-import com.example.cvbuilder.fragment.AboutMeFragment
-import com.example.cvbuilder.fragment.ContactFragment
-import com.example.cvbuilder.fragment.HomeFragment
-import com.example.cvbuilder.fragment.WorkFragment
-import com.example.cvbuilder.myadapters.ViewPagerAdapter
+import com.example.cvbuilder.R
+import com.heni.cvbuilder.fragment.AboutMeFragment
+import com.heni.cvbuilder.fragment.ContactFragment
+import com.heni.cvbuilder.fragment.HomeFragment
+import com.heni.cvbuilder.fragment.WorkFragment
+import com.heni.cvbuilder.myadapters.ViewPagerAdapter
 import com.google.android.material.tabs.TabLayout
 
 class MainActivity : AppCompatActivity() {
