@@ -7,8 +7,8 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class MyCertificationList(
     @PrimaryKey(autoGenerate = true)
-    val idNum:Long,
-    val image_Url:Int,
-    val title:String,
-    val date:Int
+    val idNum: Long,
+    val image_Url: Int,
+    val title: String,
+    val date: Int
 )

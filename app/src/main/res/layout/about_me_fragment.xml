@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragment.AboutMeFragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".fragment.AboutMeFragment">
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card_aboutMe"
         android:layout_width="match_parent"
@@ -42,6 +43,7 @@
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card_education"
         android:layout_width="match_parent"
@@ -67,21 +69,23 @@
                 android:layout_gravity="top|start"
                 android:text="Education"
                 android:textAppearance="@style/Theme.CVBuilder.CardTitle" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="My College"/>
+                android:text="My College" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_educationList"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 tools:itemCount="2"
-                tools:listitem="@layout/education"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+                tools:listitem="@layout/education" />
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card_certification"
         android:layout_width="match_parent"
@@ -112,14 +116,13 @@
                 android:id="@+id/rv_certificationList"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 tools:itemCount="2"
-                tools:listitem="@layout/certification"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+                tools:listitem="@layout/certification" />
 
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
-
 
 
 </LinearLayout>

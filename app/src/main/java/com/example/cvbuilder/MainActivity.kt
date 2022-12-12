@@ -46,7 +46,6 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-
     override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
         R.id.action_gmail -> showMessage("Gmail")
         R.id.action_linkedIn -> showMessage("LinkedIn")
@@ -59,7 +58,7 @@ class MainActivity : AppCompatActivity() {
         AlertDialog.Builder(this)
             .setTitle(s)
             .setMessage("Would you like to send a Message using $s Application")
-            .setPositiveButton("Ok",DialogInterface.OnClickListener { dialogInterface, i ->
+            .setPositiveButton("Ok", DialogInterface.OnClickListener { dialogInterface, i ->
                 dialogInterface.dismiss()
             })
             .create()

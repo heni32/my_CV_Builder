@@ -22,10 +22,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="Job Title"
-        app:layout_constraintStart_toEndOf="@+id/img_comp_logo"
-        app:layout_constraintTop_toTopOf="@+id/img_comp_logo"
+        android:textColor="@color/black"
         android:textSize="17sp"
-        android:textColor="@color/black"/>
+        app:layout_constraintStart_toEndOf="@+id/img_comp_logo"
+        app:layout_constraintTop_toTopOf="@+id/img_comp_logo" />
 
     <TextView
         android:id="@+id/tv_item_comp_title"

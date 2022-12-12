@@ -19,7 +19,7 @@
         <activity
             android:name="com.example.cvbuilder.ui.splash.RegisterActivity"
             android:exported="false"
-            android:theme="@style/RegisterActivityStyle"/>
+            android:theme="@style/RegisterActivityStyle" />
         <activity
             android:name="com.example.cvbuilder.splash.SplashActivity"
             android:exported="true">

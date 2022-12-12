@@ -14,15 +14,14 @@
         <!-- Customize your theme here. -->
         <item name="windowNoTitle">true</item>
     </style>
+
     <style name="RegisterActivityStyle" parent="Theme.CVBuilder">
         <item name="android:windowSoftInputMode">adjustResize</item>
     </style>
 
-    <style name="Theme.CVBuilder.AppBarOverlay"
-        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.CVBuilder.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="Theme.CVBuilder.PopupOverlay"
-        parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.CVBuilder.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
     <style name="Theme.CVBuilder.CardTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:textSize">18sp</item>

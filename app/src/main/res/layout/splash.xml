@@ -16,8 +16,8 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="96dp"
-        android:text="CV Builder"
         android:gravity="center"
+        android:text="CV Builder"
         android:textSize="30sp" />
 
 </RelativeLayout>

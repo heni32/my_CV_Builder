@@ -7,8 +7,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cvbuilder.R
-import com.example.cvbuilder.entity.MyCertificationList
 import com.example.cvbuilder.entity.EducationList
+import com.example.cvbuilder.entity.MyCertificationList
 import com.example.cvbuilder.entity.WorkExperience
 
 class ListAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
@@ -100,15 +100,15 @@ class ListAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             items.findViewById<ImageView>(R.id.img_comp_logo)
                 .setImageResource(workExperience.image_Url)
             items.findViewById<TextView>(R.id.tv_item_job_title)
-                .text=workExperience.job_Title
+                .text = workExperience.job_Title
             items.findViewById<TextView>(R.id.tv_item_comp_title)
-                .text=workExperience.companyName
+                .text = workExperience.companyName
             items.findViewById<TextView>(R.id.tv_item_job_period_data)
-                .text=workExperience.date_duration
+                .text = workExperience.date_duration
             items.findViewById<TextView>(R.id.tv_item_job_location)
-                .text=workExperience.companyLocation
+                .text = workExperience.companyLocation
             items.findViewById<TextView>(R.id.tv_item_job_des)
-                .text=workExperience.role
+                .text = workExperience.role
 
         }
     }
@@ -118,9 +118,9 @@ class ListAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             myItem.findViewById<ImageView>(R.id.img_edu_logo)
                 .setImageResource(educationList.image_Url)
             myItem.findViewById<TextView>(R.id.tv_edu_school)
-                .text=educationList.university
+                .text = educationList.university
             myItem.findViewById<TextView>(R.id.tv_edu_degree)
-                .text=educationList.degreeLevel
+                .text = educationList.degreeLevel
         }
     }
 
@@ -129,7 +129,7 @@ class ListAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             myItem.findViewById<ImageView>(R.id.img_cer_logo)
                 .setImageResource(myCertificationList.image_Url)
             myItem.findViewById<TextView>(R.id.tv_cer_name)
-                .text=myCertificationList.title+"("+myCertificationList.date+")"
+                .text = myCertificationList.title + "(" + myCertificationList.date + ")"
 
         }
     }

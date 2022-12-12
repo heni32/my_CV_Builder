@@ -6,17 +6,15 @@
         android:id="@+id/action_linkedIn"
         android:icon="@drawable/ic_linkedin_icon_filled"
         android:title="LinkedIn"
-        app:showAsAction="always"/>
+        app:showAsAction="always" />
     <item
         android:id="@+id/action_whatsapp"
         android:icon="@drawable/ic_whatsapp_icon"
-        android:title="Whatsapp"
-        />
+        android:title="Whatsapp" />
     <item
         android:id="@+id/action_gmail"
         android:icon="@drawable/ic_gmail_icon"
-        android:title="Gmail"
-        />
+        android:title="Gmail" />
 
 
 </menu>
